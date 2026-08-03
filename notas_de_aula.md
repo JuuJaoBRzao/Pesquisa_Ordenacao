@@ -1,3 +1,12 @@
+# Aula 3 - 03/08/2026
+
+- Padrão Arquitetural: dividem o código entre camadas
+  - MVC (Model View Controller):
+   (https://github.com/alexandrezamberlan/estruturasDeDados/tree/master/00%20-%20anosAnteriores/exemploJava_usoLista_MVC)
+
+<img width="748" height="552" alt="image" src="https://github.com/user-attachments/assets/70b1a101-fa0d-459f-9288-02d7485b7d1a" />
+
+
 # Aula 2 - 30/07/2026
 
 - ordenação: velocidade na pesquisa, organizar dados; otimizar a busca através de índices ou chaves
@@ -6,7 +15,7 @@
   - apenas a quantidade de comparações = complexidade
 - recuperar (RETRIEVE): localizar ou buscar dados om relevância (semântica ou significado)
 
-- complexidade de um algoritmo: esforço computacional de algum algoritmo, ou seja, quanto de recurso ele aloca para realizar     suas tarefas
+- complexidade de um algoritmo: esforço computacional de algum algoritmo, ou seja, quanto de recurso ele aloca para realizar suas tarefas
   - alta complexidade: mais esforço
   - baixa complexidade: menos esforço
   
@@ -20,7 +29,7 @@
 
 # Aula 1 - 27/07/2026
 
-- Introdução da matéria: Professor introduziu os elementos básicos da matéria, conceitos e discutimos sobre vários programas e   aplicativos que têm relevância com a matéria.
+- Introdução da matéria: Professor introduziu os elementos básicos da matéria, conceitos e discutimos sobre vários programas e aplicativos que têm relevância com a matéria.
 - Explicação sobre o funcionamento das notas desse semestre.
 - Complexidade: esforço computacional, se o algoritmo faz muito esforço é ruim
 
