@@ -37,67 +37,67 @@
 
 - Detalhamento por Algoritmo
 
-- 1. Bubble Sort (Bolha)
+ 1. Bubble Sort (Bolha)
   * **Memória:** Interna
   * **Estabilidade:** Estável
   * **Complexidade:** $\mathcal{O}(n^2)$
   * **Porção Ordenada:** Final (os maiores elementos "flutuam" até o fim)
 
-- 2. Selection Sort (Seleção)
+ 2. Selection Sort (Seleção)
   * **Memória:** Interna
   * **Estabilidade:** Instável
   * **Complexidade:** $\mathcal{O}(n^2)$
   * **Porção Ordenada:** Início (encontra o menor elemento e o coloca na posição correta)
   
-- 3. Insertion Sort (Inserção)
+ 3. Insertion Sort (Inserção)
   * **Memória:** Interna
   * **Estabilidade:** Estável
   * **Complexidade:** $\mathcal{O}(n^2)$
   * **Porção Ordenada:** Início (insere cada elemento na sua posição relativa correta)
   
-- 4. Comb Sort (Pente)
+ 4. Comb Sort (Pente)
   * **Memória:** Interna
   * **Estabilidade:** Instável
   * **Complexidade:** $\mathcal{O}(n^2)$ no pior caso ($\mathcal{O}(n \log n)$ no caso médio)
   * **Porção Ordenada:** Final (evolução do Bubble Sort usando um intervalo variável de comparação)
   
-- 5. Cocktail Sort / Shakesort (Agitação)
+ 5. Cocktail Sort / Shakesort (Agitação)
   * **Memória:** Interna
   * **Estabilidade:** Estável
   * **Complexidade:** $\mathcal{O}(n^2)$
   * **Porção Ordenada:** Início e Final (Bubble Sort bidirecional)
   
-- 6. Shell Sort
+ 6. Shell Sort
   * **Memória:** Interna
   * **Estabilidade:** Instável
   * **Complexidade:** Varia com a sequência de *gaps* — $\mathcal{O}(n^2)$ no pior caso clássico, podendo chegar a $\mathcal{O}(n^{1.3})$ ou $\mathcal{O}(n \log^2 n)$
   * **Porção Ordenada:** Espalhada (aplica Inserção em elementos espaçados por um intervalo/gap)
   
-- 7. Bucket Sort (Balde)
+ 7. Bucket Sort (Balde)
   * **Memória:** Interna (pode ser adaptado para Externa)
   * **Estabilidade:** Estável (se o algoritmo interno utilizado nos baldes for estável)
   * **Complexidade:** $\mathcal{O}(n + k)$ no caso médio, $\mathcal{O}(n^2)$ no pior caso
   * **Porção Ordenada:** Distribuída em baldes independentes
   
-- 8. Radix Sort
+ 8. Radix Sort
   * **Memória:** Interna
   * **Estabilidade:** Estável
   * **Complexidade:** $\mathcal{O}(n \cdot k)$, onde $k$ é o número de dígitos/caracteres
   * **Porção Ordenada:** Processada dígito por dígito (do menos significativo para o mais significativo, ou vice-versa)
   
-- 9. Heap Sort
+ 9. Heap Sort
   * **Memória:** Interna
   * **Estabilidade:** Instável
   * **Complexidade:** $\mathcal{O}(n \log n)$
   * **Porção Ordenada:** Final (utiliza uma estrutura de árvore *Heap* para extrair repetidamente o maior elemento)
   
-- 10. Merge Sort
+ 10. Merge Sort
   * **Memória:** Interna / Externa (muito utilizado em ordenação externa pela facilidade de intercalar)
   * **Estabilidade:** Estável
   * **Complexidade:** $\mathcal{O}(n \log n)$
   * **Porção Ordenada:** Dividir e Conquistar (intercala sublistas previamente ordenadas)
   
-- 11. Quick Sort
+ 11. Quick Sort
   * **Memória:** Interna
   * **Estabilidade:** Instável
   * **Complexidade:** $\mathcal{O}(n \log n)$ no caso médio, $\mathcal{O}(n^2)$ no pior caso
