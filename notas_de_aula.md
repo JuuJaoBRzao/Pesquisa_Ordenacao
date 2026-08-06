@@ -3,6 +3,7 @@
   - Ideia de MVC
   - Documentação
 - Medir tempo de ordenação
+https://github.com/JuuJaoBRzao/Pesquisa_Ordenacao/tree/main/Exercicios/Exercicio%201
 
 # Aula 3 - 03/08/2026
 
