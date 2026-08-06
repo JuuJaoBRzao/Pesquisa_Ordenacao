@@ -1,3 +1,9 @@
+# Aula 4 - 06/08/2026
+- Padrão de Desenvolvimento
+  - Ideia de MVC
+  - Documentação
+- Medir tempo de ordenação
+
 # Aula 3 - 03/08/2026
 
 - Padrão Arquitetural: dividem o código entre camadas
