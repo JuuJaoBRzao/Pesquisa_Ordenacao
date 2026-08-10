@@ -1,3 +1,22 @@
+# Aula 5 - 10/08/2026
+** Bolha
+  - Simples (memoria RAM)
+  - Estável
+  - 0 (n²)
+  - A ideia da bolha é pq o maior valor em cada "pesado" é levado até o final da estrutura
+ 
+** Seleção
+  - Simples
+  - 0 (n²)
+  - Instável
+  - A ideia da seleção é pq a cada célula de vetor, ao avançar, se seleciona (ou laça) o menor valor para aquela posição
+
+** Inserção
+  - Simples (memoria RAM)
+  - Estável
+  - 0 (n²)
+  - A ideia da inserção é pq cada vetor da porção direita da estrutura é inserido na sua posição correta na porção esquerda
+
 # Aula 4 - 06/08/2026
 - Padrão de Desenvolvimento
   - Ideia de MVC
