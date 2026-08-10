@@ -1,17 +1,17 @@
 # Aula 5 - 10/08/2026
-** Bolha
+** Bolha **
   - Simples (memoria RAM)
   - Estável
   - 0 (n²)
   - A ideia da bolha é pq o maior valor em cada "pesado" é levado até o final da estrutura
  
-** Seleção
+** Seleção **
   - Simples
   - 0 (n²)
   - Instável
   - A ideia da seleção é pq a cada célula de vetor, ao avançar, se seleciona (ou laça) o menor valor para aquela posição
 
-** Inserção
+** Inserção **
   - Simples (memoria RAM)
   - Estável
   - 0 (n²)
