@@ -2,12 +2,13 @@
 - Revisão dos conceitos vistos na última aula
 ** Atividade **:
   Organizar código seguinte em MVC:
-  '''C#
+  
+  ```csharp
   using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-class Ordenacao
-{
+  using System.Collections.Generic;
+  using System.Diagnostics;
+  class Ordenacao
+  {
 
     public static void agitacao(List<int> lista)
     {
@@ -56,10 +57,10 @@ class Ordenacao
 
         } while (houveTroca);
     }
-}
+  }
 
-class Util
-{
+  class Util
+  {
     public static void popular(List<int> lista, int quantidade)
     {
         Random gerador = new Random();
@@ -82,10 +83,10 @@ class Util
     {
         Console.WriteLine(frase + " (ms): " + sw.ElapsedMilliseconds);
     }
-}
+  }
 
-public class Principal()
-{
+  public class Principal()
+  {
     public static void Main(string[] args)
     {
         
@@ -111,7 +112,8 @@ public class Principal()
 
         //Util.exibir(lista);
     }
-}
+  }
+  ```
 
 # Aula 5 - 10/08/2026
 **Bolha**
