@@ -1,5 +1,6 @@
 # Aula 6 - 13/08/2026
 - Revisão dos conceitos vistos na última aula.
+
   **Atividade**: Organizar código seguinte em MVC:
   
   ```csharp
