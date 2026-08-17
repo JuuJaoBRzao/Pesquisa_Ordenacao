@@ -1,3 +1,6 @@
+# Aula 7 - 17/08/2026
+- Atividade de organização em MVC realizada: [Trabalho](https://github.com/JuuJaoBRzao/Pesquisa_Ordenacao/tree/main/Exercicios/Trabalho%201)
+
 # Aula 6 - 13/08/2026
 - Revisão dos conceitos vistos na última aula.
 
