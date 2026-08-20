@@ -1,3 +1,10 @@
+# Aula 8 - 20/08/2026
+**Pente (COMB SORT)**
+ - Uso da distância
+ - Instável
+ - Variável de comparação de vetores
+ - Comparações à distância
+
 # Aula 7 - 17/08/2026
 - Atividade de organização em MVC realizada: [Trabalho](https://github.com/JuuJaoBRzao/Pesquisa_Ordenacao/tree/main/Exercicios/Trabalho%201)
 
