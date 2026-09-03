@@ -1,3 +1,158 @@
+# Aula 12 - 03/09/2026
+## 1. Merge Sort (Intercalar)
+
+O **Merge Sort** é um algoritmo de ordenação baseado no princípio de **dividir para conquistar**.
+
+### Características
+
+* É **recursivo**.
+* Divide o vetor em partes menores.
+* Ordena as partes separadamente.
+* Depois, **intercala (merge)** as partes já ordenadas.
+* É composto principalmente por **2 métodos**:
+
+  1. **Merge Sort** → responsável pela divisão recursiva.
+  2. **Intercalar (Merge)** → responsável por juntar as partes ordenadas.
+
+### Funcionamento
+
+Exemplo:
+
+```text
+[8, 3, 5, 1]
+
+       ↓ divide
+
+[8, 3]     [5, 1]
+
+   ↓          ↓
+
+[8] [3]    [5] [1]
+
+       ↓ intercala
+
+[3, 8]     [1, 5]
+
+       ↓ intercala
+
+[1, 3, 5, 8]
+```
+
+A etapa de **intercalar** compara os elementos das duas partes e coloca o menor primeiro.
+
+### Complexidade
+
+* **Melhor caso:** O(n log n)
+* **Caso médio:** O(n log n)
+* **Pior caso:** O(n log n)
+
+Portanto, o Merge Sort possui **baixa complexidade**, sendo eficiente para ordenar grandes quantidades de dados.
+
+---
+
+## 2. Quick Sort (Pivô)
+
+O **Quick Sort** também utiliza o princípio de **dividir para conquistar** e é normalmente implementado de forma **recursiva**.
+
+### Características
+
+* É **recursivo**.
+* Escolhe um elemento chamado **pivô**.
+* Organiza os elementos em relação ao pivô.
+* Elementos menores ficam de um lado.
+* Elementos maiores ficam do outro lado.
+* É composto principalmente por **2 métodos**:
+
+  1. **Quick Sort** → responsável pela parte recursiva.
+  2. **Posicionar (particionar)** → responsável por posicionar o pivô e separar os elementos.
+
+### Funcionamento
+
+Exemplo:
+
+```text
+[8, 3, 5, 1, 7]
+
+Pivô = 5
+
+       ↓ posicionar
+
+[3, 1]  5  [8, 7]
+
+       ↓ aplica Quick Sort novamente
+
+[1, 3]  5  [7, 8]
+
+       ↓
+
+[1, 3, 5, 7, 8]
+```
+
+O método **posicionar** percorre o vetor e organiza os elementos em relação ao pivô.
+
+Depois disso, o Quick Sort é chamado **recursivamente** para as partes à esquerda e à direita do pivô.
+
+### Complexidade
+
+* **Melhor caso:** O(n log n)
+* **Caso médio:** O(n log n)
+* **Pior caso:** O(n²)
+
+O pior caso pode acontecer quando o pivô é escolhido de maneira ruim, por exemplo, quando o vetor já está ordenado e sempre escolhemos o primeiro ou último elemento como pivô.
+
+---
+
+## 3. Comparação
+
+| Característica     | Merge Sort             | Quick Sort             |
+| ------------------ | ---------------------- | ---------------------- |
+| Recursivo          | Sim                    | Sim                    |
+| Método auxiliar    | Intercalar             | Posicionar             |
+| Conceito principal | Divisão + intercalação | Pivô + particionamento |
+| Melhor caso        | O(n log n)             | O(n log n)             |
+| Caso médio         | O(n log n)             | O(n log n)             |
+| Pior caso          | O(n log n)             | O(n²)                  |
+| Implementação      | Mais complexa          | Mais complexa          |
+
+---
+
+## 4. Métodos de baixa complexidade
+
+Tanto o **Merge Sort** quanto o **Quick Sort** são considerados métodos de ordenação eficientes porque possuem complexidade geralmente baixa.
+
+Porém, eles podem ser **mais difíceis de implementar** do que algoritmos simples, como Bubble Sort, porque utilizam:
+
+* **Recursividade**;
+* Métodos auxiliares;
+* Divisão do vetor;
+* Manipulação de índices;
+* Intercalação ou posicionamento dos elementos.
+
+### Para lembrar na prova
+
+**Merge Sort → INTERCALAR**
+
+> Divide o vetor → ordena recursivamente → intercala as partes.
+
+**Quick Sort → PIVÔ / POSICIONAR**
+
+> Escolhe o pivô → posiciona os elementos → ordena recursivamente as partes.
+
+**Resumo geral:**
+
+> **Merge Sort = dividir + intercalar → O(n log n)**
+> **Quick Sort = pivô + posicionar → O(n log n) médio / O(n²) pior caso**
+
+
+# Aula 11 - 31/08/2026
+- Correção da prova
+
+# Aula 10 - 27/08/2026
+- Prova
+
+# Aula 9 - 24/08/2026
+ - Conteúdo da prova
+
 # Aula 8 - 20/08/2026
 **Pente (COMB SORT)**
  - Uso da distância
