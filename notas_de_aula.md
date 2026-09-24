@@ -70,6 +70,8 @@ void shell(Lista<> lista) {
 }
 ```
 
+<img width="1371" height="603" alt="image" src="https://github.com/user-attachments/assets/e453d38a-b932-47bd-a2af-134b1179a4b3" />
+
 
 # Aula 12 - 03/09/2026
 ## 1. Merge Sort (Intercalar)
