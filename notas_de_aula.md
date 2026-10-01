@@ -1,5 +1,6 @@
 # Aula 19 - 01/10/2026
 <img width="925" height="466" alt="image" src="https://github.com/user-attachments/assets/45ce2812-dd85-4852-8c2e-1e706b6a82ef" />
+
 ## Ordenação:
   - algoritmos
   - definições
