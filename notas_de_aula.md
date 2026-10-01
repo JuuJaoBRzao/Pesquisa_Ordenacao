@@ -1,3 +1,82 @@
+# Aula 19 - 01/10/2026
+<img width="925" height="466" alt="image" src="https://github.com/user-attachments/assets/45ce2812-dd85-4852-8c2e-1e706b6a82ef" />
+## Ordenação:
+  - algoritmos
+  - definições
+
+## Pesquisa:
+  - dependente de ordenação
+  - quando a estrutura está desordenada, há somente a pesquisa SEQUENCIAL
+  - complexidade de pesquisa é medida somente pelas comparações
+
+  - ## técnicas de pesquisa
+      * sequencial: estrutura não precisa estar ordenada
+      * binária:
+          - baseada na teoria de árvore, porém a estrutura precisa estar ordenada
+          - retorna somente um elemento
+          - se tiver dois iguais da problema
+          - meio = (inicio + fim) / 2
+<img width="494" height="141" alt="image" src="https://github.com/user-attachments/assets/e1c29c2c-b077-49d0-9fc6-f71d910db3a9" />
+<img width="535" height="325" alt="image" src="https://github.com/user-attachments/assets/641ed44d-e65a-4101-80e3-ea5375289308" />
+
+```java
+import java.util.ArrayList;
+
+public class Ordenacao {
+    public static boolean contido(int numero, ArrayList<Integer> lista) {
+        long qtdComparacoes = 0;
+        for (Integer item : lista) {
+            qtdComparacoes++;
+            if (item == numero) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public static boolean pesquisaBinaria(int numero, ArrayList<Integer> lista) {
+        int ini = 0;
+        int fim = lista.size()-1;
+        int meio;
+        long qtdComparacoes = 0;
+        do {
+            meio = (int)(ini+fim)/2;
+
+            qtdComparacoes++;
+            if (numero == lista.get(meio)) {
+                return true;
+            }
+            if (numero < lista.get(meio)) {
+                fim = meio - 1;                
+            } else {
+                ini = meio + 1;
+            }
+        } while (ini <= fim);
+        System.out.println("Qauntidade de comparaçoes: " + qtdComparacoes);
+
+        return false;
+    }
+
+import java.util.ArrayList;
+import javax.swing.JOptionPane;
+
+public class Principal {
+    public static void main(String a[]) {
+        ArrayList<Integer> lista = new ArrayList<>();
+        Util.carregarArquivoEmLista("numeros.txt", lista);
+        Ordenacao.pente(lista);
+        Util.exibirLista(lista);
+        System.out.println("Total de elementos na lista: " + lista.size());
+
+        int numeroPesquisa = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero inteiro para pesquisar: "));
+        JOptionPane.showMessageDialog(null,"Resultado: " + lista.contains(numeroPesquisa) + "  " + Ordenacao.pesquisaBinaria(numeroPesquisa, lista));
+
+    }
+}
+```
+
+
+
 # Aula 17 - 24/09/2026
 
 **Shell Sort**
