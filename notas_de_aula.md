@@ -1,3 +1,16 @@
+# Aula 20 - 05/10/2026
+Pesquisa == Busca == Recuperação
+  - Guardar bem(ordenado), para buscar bem
+    - Árvores ou conjuntos ordenados (inserir ordenado e busca binária)
+      - Java -> TreeSet
+      - C# -> SortedSet
+    - Listas ordenadas (inserir ordenado e busca binária)
+      - Java -> Vector, ArrayList, LinkedList, List
+      - C# -> List, LinkedList
+    - Tabelas hash (inserir e buscar via cálculo de endereço)
+      - Java -> HashSet
+      - C# -> HashSet
+
 # Aula 19 - 01/10/2026
 <img width="925" height="466" alt="image" src="https://github.com/user-attachments/assets/45ce2812-dd85-4852-8c2e-1e706b6a82ef" />
 
