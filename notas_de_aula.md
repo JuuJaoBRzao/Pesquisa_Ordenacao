@@ -1,6 +1,128 @@
+# Aula 22 - 14/10/2026
+## Hash 
+  - Função de espalhamento, ou seja, um dado é armazenado ou pesquisado na estrutura via um código de endereçamento
+  - boa para armazernar e buscar mas não é feito para ordenar (complexidade 1)
+  * Conceitos:
+    - Tabelas hash: estrutura de dados que armazena dados
+    - Função Hash: cálculo de endereçamento para armazenar e buscar elementos na estrutura
+
+```java
+  public class ExemploHashSimples {
+    public static void main(String[] args){
+      HashSet<String> tabelaHashString = new HashSet<>();
+
+      tabelaHashString.add("alexandre");
+      tabelaHashString.add("hermes");
+      tabelaHashString.add("davi");
+      tabelaHashString.add("alan");
+      tabelaHashString.add("alexandre");
+      tabelaHashString.add("davi");
+
+      System.out.println(tabelaHashString);
+      for (String item : tabelaHashString){
+        System.out.println(item + "=> " +item.hashCode()); -- mostra o endereço
+      }
+    }
+  }
+```
+
+# Trabalho semestral de HashMap
+
+Construir um programa em Java, C# ou Python que:
+
+1) armazene em um HashMap os dados do arquivo telephony_sessions.txt, usando como
+classe a classe implementada em Sessao.java
+  - ler o arquivo
+  - splitar as linhas
+  - criar um objeto do tipo Sessao
+  - adicionar (put) no HashMap
+
+2) permite procurar um numero de celular e o retorne seja os dados da sessão
+
+3) DESAFIO: pesquise sobre uso de threads e tente procurar N celulares ao mesmo tempo
+
+Usar este código:
+```java
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class Principal {
+    public static void main(String[] args) {
+        HashMap<String, Sessao> sessoes = new HashMap<>();
+
+        Sessao sessao1 = new Sessao("123456789", "Dados da Sessão 1");
+        Sessao sessao2 = new Sessao("123456788", "Dados da Sessão 2");
+        Sessao sessao3 = new Sessao("987654321", "Dados da Sessão 3");
+
+        sessoes.put(sessao1.numeroCelular, sessao1);
+        sessoes.put(sessao2.numeroCelular, sessao2);
+        sessoes.put(sessao3.numeroCelular, sessao3);
+
+
+        String celularBusca = "123456789";
+
+        Sessao sessaoEncontrada = sessoes.get(celularBusca);
+
+        if (sessaoEncontrada != null) {
+            System.out.println("Sessão encontrada: " + sessaoEncontrada.dadosSessao);
+        } else {
+            System.out.println("Sessão não encontrada.");
+        }
+    }
+}
+```
+
+```java
+import java.util.HashSet;
+
+public class Sessao {
+    public String numeroCelular;
+    public String dadosSessao;
+
+    public Sessao(String numeroCelular, String dadosSessao) {
+        this.numeroCelular = numeroCelular;
+        this.dadosSessao = dadosSessao;
+    }
+
+    @Override
+    public String toString() {
+        return "Sessao [numeroCelular=" + numeroCelular + ", dadosSessao=" + dadosSessao + "]";
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((numeroCelular == null) ? 0 : numeroCelular.hashCode());
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Sessao other = (Sessao) obj;
+        if (numeroCelular == null) {
+            if (other.numeroCelular != null)
+                return false;
+        } else if (!numeroCelular.equals(other.numeroCelular))
+            return false;
+        return true;
+    }
+}
+```
+
+
+# Aula 21 - 08/10/2026
+Exercício dado em aula: [Código](https://github.com/JuuJaoBRzao/Pesquisa_Ordenacao/tree/main/Exercicios/Aula%2021)
+
 # Aula 20 - 05/10/2026
 Pesquisa == Busca == Recuperação
-  - Guardar bem(ordenado), para buscar bem
+  - Guardar bem(ordenado), para buscar bem (🥲)
     - Árvores ou conjuntos ordenados (inserir ordenado e busca binária)
       - Java -> TreeSet
       - C# -> SortedSet
