@@ -1,4 +1,4 @@
-# Aula 23 - 19/10/2026
+# Aula 24 - 19/10/2026
 - Hash só funciona se a tabela for gigantesca, se for pequena pode dar muita colisão
 - Exemplo de hash feito em aula: [Código](https://github.com/JuuJaoBRzao/Pesquisa_Ordenacao/tree/main/Exercicios/Aula%2023)
 
