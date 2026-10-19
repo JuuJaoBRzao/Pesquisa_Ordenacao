@@ -1,3 +1,7 @@
+# Aula 23 - 19/10/2026
+- Hash só funciona se a tabela for gigantesca, se for pequena pode dar muita colisão
+- Exemplo de hash feito em aula: [Código](https://github.com/JuuJaoBRzao/Pesquisa_Ordenacao/tree/main/Exercicios/Aula%2023)
+
 # Aula 22 - 14/10/2026
 ## Hash 
   - Função de espalhamento, ou seja, um dado é armazenado ou pesquisado na estrutura via um código de endereçamento
