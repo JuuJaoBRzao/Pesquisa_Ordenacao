@@ -1,3 +1,29 @@
+# Aula 25 - 22/10/2026
+<img width="619" height="343" alt="image" src="https://github.com/user-attachments/assets/e3515c87-6210-4c09-bea3-35c69065cd2b" />
+
+
+-LLM, Transformers, embedding e RAG (pesquisar sobre)
+LLM: Large Language Model
+
+<img width="758" height="326" alt="image" src="https://github.com/user-attachments/assets/d02992ab-443f-4f9c-be20-e0d365b87dab" />
+
+## Questões sobre Pesquisa
+
+1. No universo de programação, baseada em Estruturas de Dados e Orientação a Objetos, há classes ou estruturas para armazenar dados em memória. Cite e explique as 3 principais estruturas em que programadores armazenam dados em memória e conseguem acessar dados de maneira mais eficaz.
+-- Listas, árvores e tabelas hash
+
+2. Dentro dos métodos de pesquisa, há o sequencial e o binário. Entretanto, a pesquisa binária mostra-se muito mais eficaz. Para usá-la, como a estrutura deve se apresentar e qual a filosofia de trabalho da pesquisa binária.
+-- A estrutura precisa estar ordenada e a filosofia de trabalho é baseada em árvore binária de pesquisa
+
+3. No universo de Tabelas Hash (técnica de espalhamento), os dados são armazenados e acessados rapidamente, com uma complexidade O(1). Qual o recurso utilizado para que isso aconteça.
+-- Função hash ou função de cálculo de endereço sobre uma chave
+
+4. Tendo como base o algoritmo de pesquisa binária, contabilize e mostra quantas comparações ocorrem na estrutura até o número 24 ser localizado na lista.
+<img width="241" height="45" alt="image" src="https://github.com/user-attachments/assets/11c9446a-34bd-420c-a472-99d34686d220" />
+
+
+
+
 # Aula 24 - 19/10/2026
 - Hash só funciona se a tabela for gigantesca, se for pequena pode dar muita colisão
 - Exemplo de hash feito em aula: [Código](https://github.com/JuuJaoBRzao/Pesquisa_Ordenacao/tree/main/Exercicios/Aula%2023)
