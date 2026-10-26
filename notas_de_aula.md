@@ -1,3 +1,19 @@
+# Aula 26 - 26/10/2026
+- Árvores TRIE
+  - Estrutura usada para armazenar e pesquisar palavras/chaves.
+  - Cada caminho da árvore representa uma sequência de caracteres.
+  - A busca é rápida, pois percorre os caracteres da palavra.
+  - Exemplo: palavras CASA e CARRO compartilham o início CA.
+
+- P.A.T.R.I.C.I.A
+  - É uma versão mais eficiente da TRIE.
+  - Remove caminhos que possuem apenas um filho, compactando a árvore.
+  - Ocupa menos espaço e mantém buscas rápidas.
+  - Muito usada para pesquisar strings/chaves de forma eficiente.
+ 
+  <img width="789" height="555" alt="image" src="https://github.com/user-attachments/assets/c907a502-4d7b-4114-9608-117167b3e9c6" />
+
+
 # Aula 25 - 22/10/2026
 <img width="619" height="343" alt="image" src="https://github.com/user-attachments/assets/e3515c87-6210-4c09-bea3-35c69065cd2b" />
 
