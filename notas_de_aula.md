@@ -1,4 +1,7 @@
 # Aula 26 - 26/10/2026
+
+[Anotações Professor](https://github.com/alexandrezamberlan/pesquisa_ordenacao/blob/master/07-pesquisaDigital/trie_patricia.md)
+
 - Árvores TRIE
   - Estrutura usada para armazenar e pesquisar palavras/chaves.
   - Cada caminho da árvore representa uma sequência de caracteres.
