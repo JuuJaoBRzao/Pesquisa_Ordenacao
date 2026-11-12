@@ -1,3 +1,20 @@
+# Aula 30 - 12/11/2026
+
+  1) Entrar no link original: www.ufn.edu.br.HASHCODE()
+  
+  2) Gerar HASH(positivo) do link original
+  
+  3) Armazenar o HASHMAP
+    - chave: HASH gerado
+    - conteúdo: link original
+  
+  4)Devolver o link encurtado
+  
+  5) Acessar o link encurtado
+    - informar o link encurtado
+    - pesquisar HASHMAP pelo HASH
+    - devolver o link original
+
 # Aula 26 - 26/10/2026
 
 [Anotações Professor](https://github.com/alexandrezamberlan/pesquisa_ordenacao/blob/master/07-pesquisaDigital/trie_patricia.md)
