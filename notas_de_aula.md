@@ -8,7 +8,7 @@
     - chave: HASH gerado
     - conteúdo: link original
   
-  4)Devolver o link encurtado
+  4) Devolver o link encurtado
   
   5) Acessar o link encurtado
     - informar o link encurtado
