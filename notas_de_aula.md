@@ -5,12 +5,14 @@
   2) Gerar HASH(positivo) do link original
   
   3) Armazenar o HASHMAP
+
     - chave: HASH gerado
     - conteúdo: link original
   
-  4) Devolver o link encurtado
+  5) Devolver o link encurtado
   
-  5) Acessar o link encurtado
+  6) Acessar o link encurtado
+     
     - informar o link encurtado
     - pesquisar HASHMAP pelo HASH
     - devolver o link original
